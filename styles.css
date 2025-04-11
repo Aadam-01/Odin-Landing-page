@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 0.5px solid bisque; */
+    border: 0.5px solid bisque;
 }
 html {
     font-family: Roboto;
@@ -74,18 +74,28 @@ body {
     border: 1px solid #e5e7eb;
     width: auto;
     height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
 
 .lower-section .left-part h1 {
     font-size: 58px;
     font-weight: bold;
 }
 
-/* .lower-section .left-part {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-} */
+.lower-section .left-part button {
+    padding: 12px 36px;
+    /* margin-top: auto; */
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    align-self: flex-start;
+}
+
 
 
 
@@ -102,20 +112,35 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #fff;
+    color: #1F2937;
 }
 
 .information h2 {
     margin-top: 20px;
+    color: black;
 }
 
 .information-container {
     display: flex;
-    justify-content: space-between;
-    margin: 20px 20% 80px;
+    justify-content: center;
+    padding: 20px 20% 80px;
+    gap: 16px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .box {
     border: 1px solid blue;
     width: 100px;
     height: 100px;
+}
+
+.info p {
+    margin-top: 10px;
+    text-align: center;
 }
