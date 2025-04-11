@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 0.5px solid bisque; */
+}
+html {
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* The header section */
+
+.header {
+    background-color: #1F2937;
+    color: #f9faf8;
+    height: 50vh;
+    display: flex;
+}
+
+.header-inner-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 12px 15% 80px;
+}
+
+.upper-section, 
+.lower-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper-section {
+    margin-bottom: 10vh;
+}
+
+.lower-section {
+    gap: 10%;
+    width: auto;
+    height: auto;
+    /* margin-bottom: 10rem; */
+} 
+
+.lower-section .left-part,
+.lower-section .right-part {
+    flex: 1;
+}
+
+.right-part ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+.right-part ul a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.lower-section .right-part {
+    border: 1px solid #e5e7eb;
+    height: 30vh;
+}
+
+
+.lower-section .left-part {
+    border: 1px solid #e5e7eb;
+    width: auto;
+    height: 30vh;
+}
+
+.lower-section .left-part h1 {
+    font-size: 58px;
+    font-weight: bold;
+}
+
+/* .lower-section .left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} */
+
+
+
+
+
+
+
+
+
+/* information Section */
+
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information h2 {
+    margin-top: 20px;
+}
+
+.information-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20% 80px;
+}
+
+.box {
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+}
