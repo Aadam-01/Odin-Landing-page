@@ -48,7 +48,6 @@ a {
     gap: 10%;
     width: auto;
     height: auto;
-    /* margin-bottom: 10rem; */
 } 
 
 .lower-section .left-part,
@@ -74,7 +73,6 @@ a {
 
 
 .lower-section .left-part {
-    border: 1px solid #e5e7eb;
     width: auto;
     height: 30vh;
     display: flex;
@@ -90,7 +88,6 @@ a {
 
 .lower-section .left-part button {
     padding: 12px 36px;
-    /* margin-top: auto; */
     background-color: blue;
     color: white;
     border-radius: 10px;
@@ -180,7 +177,6 @@ a {
     align-items: center;
     background-color: #fff;
     height: 25vh;
-    /* padding:  80px 18%; */
 }
 
 .action-container {
@@ -189,7 +185,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-shrink: 1; */
     height: 90px;
     width: 80rem;
     margin: 20px 8%;
@@ -215,4 +210,19 @@ a {
     border-radius: 6px;
     padding: 4px 24px;
 
+}
+
+
+
+
+/* Footer Section */
+
+
+.footer-container {
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20%;
 }
